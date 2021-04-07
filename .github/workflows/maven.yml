@@ -30,7 +30,7 @@ jobs:
         java-version: 1.8
         
       - name: Setup JDK1.8
-        run: mvn clean install Testing_CICD/pom.xml
+        run: mvn clean install Testing_CICD\pom.xml
         
     
         
